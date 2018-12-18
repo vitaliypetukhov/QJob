@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+    <item
+        android:id="@+id/nav_addjob"
+        android:title="Создать Объявление"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/nav_findjob"
+        app:actionViewClass="android.widget.TextView"
+        android:title="Поиск Работы"
+        android:icon="@drawable/find"/>
+    <item
+        android:id="@+id/nav_favourites"
+        app:actionViewClass="android.widget.TextView"
+        android:title="Мои Избранные"
+        android:icon="@drawable/fav"/>
+
+    <item android:title="Прочая Информация">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="О Программе"
+                android:icon="@drawable/about"/>
+
+            <item
+                android:id="@+id/nav_change"
+                android:title="Изменение Данных"
+                android:icon="@drawable/changes"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Выход"
+                android:icon="@drawable/logout"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>
+
+

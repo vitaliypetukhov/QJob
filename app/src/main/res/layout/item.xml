@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <TextView
+        android:id="@+id/jobnameitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название работы"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/jobIDitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:visibility="invisible"
+            android:layout_marginLeft="10dp"
+           />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/typejobitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тип работы"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <TextView
+            android:id="@+id/countryitem"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Страна"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp" />
+        <TextView
+            android:id="@+id/zap_position1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=","
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/regionitem"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Регион"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/zap_position2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=","
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/cityitem"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Город"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <TextView
+            android:id="@+id/paydayitem"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Зарплата"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp" />
+        <TextView
+            android:id="@+id/zap_payday1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=","
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/paydayvalueitem"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Валюта"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
